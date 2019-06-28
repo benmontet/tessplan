@@ -6,6 +6,7 @@ from __future__ import division, print_function
 import os
 import sys
 from setuptools import setup
+from version import __version__
 
 sys.path.insert(0, "tessplan")
 
@@ -23,7 +24,7 @@ planet candidates to observe.
 
 setup(
     name='tessplan',
-    version='0.0.1rc3',
+    version=__version__,
     license='MIT',
     author='Benjamin Montet',
     author_email='bmontet@uchicago.edu',
