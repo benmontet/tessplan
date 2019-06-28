@@ -6,10 +6,9 @@ from __future__ import division, print_function
 import os
 import sys
 from setuptools import setup
-from version import __version__
 
 sys.path.insert(0, "tessplan")
-
+from version import __version__
 
 long_description = \
     """
