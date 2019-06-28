@@ -17,5 +17,5 @@ Alternatively you can install the current development version of tessplan:
         python setup.py install
 
 
-The [notebooks](./tree/master/notebooks) directory of this repository hosts a 
+The [notebooks](../../tree/master/notebooks) directory of this repository hosts a 
 Jupyter notebook demonstrating use cases for tessplan.
